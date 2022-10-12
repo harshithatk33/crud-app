@@ -1,0 +1,28 @@
+{
+    "name": "crud_operations",
+    "version": "1.0.0",
+    "description": "Creating a CRUD operations backend using Node.js Express framework and Mongo DB",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node index.js | bunyan",
+        "server": "npx nodemon --exec babel-node index.js | bunyan"
+    },
+    "author": "Harshitha T K",
+    "license": "ISC",
+    "dependencies": {
+        "bunyan": "^1.8.15",
+        "config": "^3.3.7",
+        "express": "^4.18.1",
+        "express-validator": "^6.14.1",
+        "jsonwebtoken": "^8.5.1",
+        "moleculer": "^0.14.21",
+        "mongoose": "^6.3.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.10",
+        "@babel/core": "^7.17.10",
+        "@babel/node": "^7.17.10",
+        "@babel/preset-env": "^7.17.10",
+        "nodemon": "^2.0.16"
+    }
+}

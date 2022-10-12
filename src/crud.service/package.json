@@ -1,0 +1,26 @@
+{
+    "name": "crud.service",
+    "version": "1.0.0",
+    "description": "CRUD Operation Microservice",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx nodemon --exec babel-node src/index.js"
+    },
+    "author": "Harshitha T K",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/boom": "^10.0.0",
+        "config": "^3.3.7",
+        "crypto-js": "^4.1.1",
+        "crypto-random-string": "^2.0.0",
+        "moleculer": "^0.14.21",
+        "mongoose": "^6.3.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.10",
+        "@babel/core": "^7.17.10",
+        "@babel/node": "^7.17.10",
+        "@babel/preset-env": "^7.17.10",
+        "nodemon": "^2.0.16"
+    }
+}
